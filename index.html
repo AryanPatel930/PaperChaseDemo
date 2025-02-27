@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPERCHASE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="Artboard 1.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Artboard 1.png" alt="logo"></a>
+        <h1>PAPERCHASE</h1>
+        <div class="auth-buttons">
+            <button onclick="location.href='login.html'">Login</button>
+            <button onclick="location.href='signup.html'">Sign Up</button>
+        </div>
+    </header>
+    
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Search for books by title, author, or ISBN">
+        <button onclick="searchBooks()">Search</button>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
